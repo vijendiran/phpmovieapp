@@ -1,0 +1,241 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*App-Titile*/
+.app-title{
+  background-color: black;
+  color:#ff751a;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  text-shadow:-2px 1px 1px white;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 35px;
+}
+.plusIcon{
+  float:right;
+  margin-top: -47px;
+  margin-right: 10px;
+  cursor: pointer;
+  position: relative;
+}
+.addMovieToDatabase{
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  background-color:black;
+  padding: 20px;
+  display: none;
+  border: 1px solid white;
+  margin: 0 auto;
+}
+input[type=text]{
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+}
+input[type=submit]{
+  padding:10px 0;
+  width: 100%;
+  background-color:rgba(255, 117, 26, 0.82);
+  cursor: pointer;
+  -webkit-border-radius:5px;
+  border: none;
+  font-size: 15px;
+  margin: 10px auto;
+  text-align: center;
+  color: white;
+}
+input[type=submit]:hover{
+  background-color: #ff8533;
+}
+*{
+  box-sizing: border-box;
+}
+label{
+  color: white;
+}
+ul{
+  margin:0;
+  padding: 0;
+}
+li{
+  margin:0;
+  padding: 0;
+  float: left;
+  -webkit-border-radius:10px;
+  list-style-type:none;
+}
+.poster-img{
+  height:300px;
+  width: 250px;
+-webkit-border-radius:10px;
+}
+.moviename{
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  color: white;
+  margin-left: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.year{
+  color: white;
+  margin-left: 5px;
+}
+.links:hover{
+  text-decoration: none;
+}
+.name-year{
+  height: 390px;
+  background-color:black;
+  -webkit-border-radius:10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-decoration: none;
+  margin:0;
+}
+.name-year:hover{
+  background-color:#2196F3;
+  text-decoration: none;
+}
+/*moreDetails-nextPage*/
+.moreDetails{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  background:black;
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid black;
+}
+.more-name{
+  padding: 0;
+  margin: 0;
+  color: orange;
+  text-shadow: 1px 1px 5px black;
+}
+.more-year{
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-shadow:-1px 1px 5px black;
+}
+.more-director{
+  padding: 5px;
+  margin: 0;
+  color: white;
+  text-shadow:-1px 1px 5px black;
+}
+.more-boxoffice{
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-shadow:-1px 1px 5px black;
+}
+.updateBtn{
+  background-color: #e7e7e7;
+  text-decoration: none;
+  padding: 8px 35px;
+  -webkit-border-radius:10px;
+  color: black;
+  border: none;
+}
+.updateBtn:hover{
+  background-color:#0000e6;
+  color: white;
+  text-decoration: none;
+}
+.deleteBtn{
+  margin-left: 20px;
+  background-color: #e7e7e7;
+  padding: 8px 35px;
+  text-decoration:none;
+  -webkit-border-radius:10px;
+  border: none;
+  color: black;
+}
+.deleteBtn:hover{
+  background-color: red;
+  color: white;
+  text-decoration: none;
+}
+.upbtn{
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.dbtn{
+  margin-top: -18px;
+  margin-left: 112px;
+}
+.bgimages{
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}
+/*mobile*/
+@media only screen and (max-width: 500px) {
+  .name-year{
+    margin:20px 45px;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  ul{
+    margin: 10px 10px;
+    padding: 0;
+  }
+  li{
+    margin:10px 10px;
+    padding: 0;
+  }
+}
+/*Tablet*/
+@media only screen and (min-width: 768px) and (max-width:980px) {
+  ul{
+    margin: 10px 30px;
+    padding: 0;
+  }
+  li{
+    margin:10px 50px;
+    padding: 0;
+  }
+}
+/*Desktop*/
+@media only screen and (min-width:980px) and (max-width:1200px) {
+  ul{
+    margin: 10px 50px;
+    padding: 0;
+  }
+  li{
+    margin:10px 25px;
+    padding: 0;
+  }
+}
+@media only screen and (min-width:1200px) {
+  ul{
+    margin: 10px 50px;
+    padding: 0;
+  }
+  li{
+      margin: 10px 30px;
+      padding: 0;
+    }
+  }
+/*large-screen*/
+@media only screen and (min-width:1400px){
+  ul{
+    margin: 10px 30px;
+    padding: 0;
+  }
+  li{
+    margin: 10px 13px;
+    padding: 0;
+  }
+}
