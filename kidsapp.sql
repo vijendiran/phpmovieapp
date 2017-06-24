@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:3306
--- Generation Time: May 31, 2017 at 02:33 PM
+-- Generation Time: Jun 24, 2017 at 01:23 PM
 -- Server version: 5.5.42
 -- PHP Version: 7.0.0
 
@@ -41,7 +41,7 @@ CREATE TABLE `kidsmovielist` (
 --
 
 INSERT INTO `kidsmovielist` (`id`, `name`, `year`, `director`, `boxoffice`, `poster`, `bgimage`) VALUES
-(6, 'Zootopia', '2016', 'Byron Howard', '1.024 billion USD', 'http://www.moviespros.com/images/c2.jpg', 'http://static.srcdn.com/wp-content/uploads/zoootpia-box-office-record.jpg'),
+(6, 'Zootopia', '2016', 'Byron Howard', '1.024 billion USD', 'http://82.165.166.174/images/banner-zootopia-1475532300-m.png', 'http://static.srcdn.com/wp-content/uploads/zoootpia-box-office-record.jpg'),
 (7, 'Minions', '2015', 'Pierre Coffin', '1.159 billion USD', 'https://s-media-cache-ak0.pinimg.com/564x/60/07/e1/6007e15b62afaae704c5673d39a00672.jpg', 'http://d3dfib2axrgjas.cloudfront.net/generated/images/minions-movie-2015-poster_large.jpg'),
 (8, 'The Secret Life of Pets', '2016', 'Chris Renaud', '875.5 million USD', 'http://www.newmovie9x.com/wp-content/uploads/2017/02/The-Secret-Life-of-Pets-2016-250x300.jpg', 'https://i.ytimg.com/vi/eWI_Jsw9qUs/maxresdefault.jpg'),
 (9, 'The Karate Kid', '1984', 'Harald Zwart', '360 million USD', 'http://www.filmxy.cc/wp-content/uploads/2015/04/The-Karate-Kid-2010-cover-250x350.jpg', 'http://i.onionstatic.com/avclub/5107/50/16x9/960.jpg'),
